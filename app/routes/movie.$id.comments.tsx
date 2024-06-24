@@ -54,14 +54,14 @@ import {
         <Form method="post">
           <textarea
             name="comment"
-            className="border border-teal-500 rounded-lg p-2 w-full"
+            className="border border-blue-500 rounded-lg p-2 w-full"
             required
           ></textarea>
           <input type="hidden" name="id" value={id} />
           <button
             type="submit"
             disabled={navigation.state === "submitting"}
-            className="bg-teal-500 px-4 py-2 rounded-lg text-white mt-3"
+            className="bg-blue-500 px-4 py-2 rounded-lg text-white mt-3"
           >
             {navigation.state === "submitting" ? "Loading..." : "Add Comment"}
           </button>
